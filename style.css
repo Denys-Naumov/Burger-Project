@@ -245,7 +245,7 @@ body {
   animation-direction: alternate-reverse;
 }
 .one .line:nth-child(2){
-  animation-delay: 1s;
+  animation-delay: -1s;
 }
 
 @keyframes line-one {
@@ -270,7 +270,7 @@ body {
   animation-direction: alternate;
 }
 .two .line:nth-child(2){
-  animation-delay: 1s;
+  animation-delay: -1s;
 }
 
 @keyframes line-two {
@@ -299,10 +299,10 @@ body {
   animation-direction: alternate-reverse;
 }
 .three .line:nth-child(2){
-  animation-delay: .55s;
+  animation-delay: -0.55s;
 }
 .three .line:nth-child(3){
-  animation-delay: 1.25s;
+  animation-delay: -1.25s;
 }
 
 @keyframes line-three {
@@ -331,10 +331,10 @@ body {
   animation-direction: alternate;
 }
 .four .line:nth-child(2){
-  animation-delay: .85s;
+  animation-delay: -0.85s;
 }
 .four .line:nth-child(3){
-  animation-delay: 1.45s;
+  animation-delay: -1.45s;
 }
 
 @keyframes line-four {
@@ -363,13 +363,13 @@ body {
   animation-direction: alternate-reverse;
 }
 .five .line:nth-child(2){
-  animation-delay: .50s;
+  animation-delay: -0.50s;
 }
 .five .line:nth-child(3){
-  animation-delay: 1.05s;
+  animation-delay: -1.05s;
 }
 .five .line:nth-child(4){
-  animation-delay: 1.55s;
+  animation-delay: -1.55s;
 }
 
 @keyframes line-five {
@@ -398,13 +398,13 @@ body {
   animation-direction: alternate;
 }
 .six .line:nth-child(2){
-  animation-delay: .75s;
+  animation-delay: -0.75s;
 }
 .six .line:nth-child(3){
-  animation-delay: 1.45s;
+  animation-delay: -1.45s;
 }
 .six .line:nth-child(4){
-  animation-delay: 1.85s;
+  animation-delay: -1.85s;
 }
 
 @keyframes line-six {
@@ -433,13 +433,13 @@ body {
   animation-direction: alternate-reverse;
 }
 .seven .line:nth-child(2){
-  animation-delay: .35s;
+  animation-delay: -0.35s;
 }
 .seven .line:nth-child(3){
-  animation-delay: 1.15s;
+  animation-delay: -1.15s;
 }
 .seven .line:nth-child(4){
-  animation-delay: 1.65s;
+  animation-delay: -1.65s;
 }
 
 @keyframes line-seven {
@@ -468,13 +468,13 @@ body {
   animation-direction: alternate;
 }
 .eight .line:nth-child(2){
-  animation-delay: 1.35s;
+  animation-delay: -1.35s;
 }
 .eight .line:nth-child(3){
-  animation-delay: 2.15s;
+  animation-delay: -2.15s;
 }
 .eight .line:nth-child(4){
-  animation-delay: 3.65s;
+  animation-delay: -3.65s;
 }
 
 @keyframes line-eight {
@@ -503,13 +503,13 @@ body {
   animation-direction: alternate-reverse;
 }
 .nine .line:nth-child(2){
-  animation-delay: .5s;
+  animation-delay: -0.5s;
 }
 .nine .line:nth-child(3){
-  animation-delay: 1.25s;
+  animation-delay: -1.25s;
 }
 .nine .line:nth-child(4){
-  animation-delay: 2.15s;
+  animation-delay: -2.15s;
 }
 
 @keyframes line-nine {
@@ -538,13 +538,13 @@ body {
   animation-direction: alternate;
 }
 .ten .line:nth-child(2){
-  animation-delay: .5s;
+  animation-delay: -0.5s;
 }
 .ten .line:nth-child(3){
-  animation-delay: 1s;
+  animation-delay: -1s;
 }
 .ten .line:nth-child(4){
-  animation-delay: 1.5s;
+  animation-delay: -1.5s;
 }
 
 @keyframes line-ten {
