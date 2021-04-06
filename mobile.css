@@ -62,9 +62,8 @@
     max-width: 91.6666666667%;
   }
 
-  .col-ld-12 {
-    flex: 0 0 100%;
-    max-width: 100%;
+  .blog-description p {
+    overflow-y: hidden;
   }
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -135,6 +134,12 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+    /* PAGE 2 */
+    .blog-description p {
+      overflow: hidden;
+      height: 200px;
+    }
+
 }
 @media (max-width: 1024px) {
   /* PAGE 1 */
@@ -161,6 +166,20 @@
   .burger-item.cat-gif {
     position: unset;
     margin-top: -100px;
+  }
+  /* PAGE 2 */
+  .main {
+    margin-top: 0;
+  }
+  .row-blog-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-bg-cat img {
+    display: none;
+  }
+  .blog-description {
+    padding: 15px;
   }
   .col-sm-0 {
     display: none;
@@ -225,10 +244,10 @@
     max-width: 100%;
   }
 }
-@media (min-width: 481px) and (max-width: 767px), (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 767px) {
   /* PAGE 1 */
   .container {
-    width: 320px;
+    width: 480px;
   }
   .mobile-burger {
     display: block;
@@ -320,7 +339,7 @@
     position: unset;
     margin-top: -75px;
   }
-
+  /* Footer */
   .footer {
     flex-direction: column;
     align-items: center;
@@ -401,4 +420,181 @@
     display: block;
     transform: scale(1);
   }
+}
+@media (max-width: 480px) {
+ /* PAGE 1 */
+ .container {
+  width: 480px;
+}
+.mobile-burger {
+  display: block;
+  padding: 0;
+}
+.menu-container a {
+  display: flex;
+}
+.logo-a .logo {
+  position: sticky;
+  margin: 15px;
+  filter: drop-shadow(0 0 20px yellow);
+}
+.header {
+  background-color: rgba(0, 0, 0, 0);
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  list-style: none;
+  background: rgba(0,0,0,.8);
+}
+.mobile-menu li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 3px;
+  padding: 30px 0 30px 15px;
+}
+.mobile-menu li a:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 10px yellow, 0 0 30px yellow, 0 0 50px yellow;
+}
+.nav-mobile-menu {
+  position: sticky;
+  height: 85px;
+  width: 50px;
+  left: 15px;
+}
+.nav-mobile-menu span {
+  height: 3px;
+  width: 55px;
+  background-color: white;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  margin: 15px 0;
+}
+.nav-mobile-menu span:nth-child(1) {
+  transform: rotate(45deg);
+}
+.nav-mobile-menu span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+.hidden-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+.navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  max-width: 300px;
+  transition: all .5s ease-in-out;
+  transform: translateX(10%);
+}
+/* MAIN */
+.main {
+  margin-top: -175px;
+}
+.burger-row {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0;
+}
+.burger-item {
+  margin: 0 0 20px 0;
+}
+.burger-row .burger-item:nth-child(2) {
+  align-self: unset;
+}
+.burger-item.cat-gif {
+  position: unset;
+  margin-top: -75px;
+}
+
+.footer {
+  flex-direction: column;
+  align-items: center;
+}
+.footer-box {
+  flex-direction: column;
+  align-items: center;
+}
+.col-xs-0 {
+  display: none;
+}
+
+.col-xs-1 {
+  flex: 0 0 8.3333333333%;
+  max-width: 8.3333333333%;
+}
+
+.col-xs-2 {
+  flex: 0 0 16.6666666667%;
+  max-width: 16.6666666667%;
+}
+
+.col-xs-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-xs-4 {
+  flex: 0 0 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.col-xs-5 {
+  flex: 0 0 41.6666666667%;
+  max-width: 41.6666666667%;
+}
+
+.col-xs-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-xs-7 {
+  flex: 0 0 58.3333333333%;
+  max-width: 58.3333333333%;
+}
+
+.col-xs-8 {
+  flex: 0 0 66.6666666667%;
+  max-width: 66.6666666667%;
+}
+
+.col-xs-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-xs-10 {
+  flex: 0 0 83.3333333333%;
+  max-width: 83.3333333333%;
+}
+
+.col-xs-11 {
+  flex: 0 0 91.6666666667%;
+  max-width: 91.6666666667%;
+}
+
+.col-xs-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.display-none{
+  display: none;
+  transform: scale(0);
+}
+.display-block{
+  display: block;
+  transform: scale(1);
+}
 }

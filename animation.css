@@ -699,6 +699,7 @@
   animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  z-index: 1;
 }
 .paw1 {
   transform: rotate(10deg);

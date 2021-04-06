@@ -39,6 +39,7 @@ body {
   background-color: #3c2f2f;
   font-family: "Permanent Marker", cursive;
   color: #fff;
+  z-index: 500;
   
 }
 .btn:hover {
@@ -74,6 +75,7 @@ body {
 }
 
 .menu-container {
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -205,6 +207,10 @@ body {
   letter-spacing: 3px;
   padding: 10px 0;
 }
+.footer .row {
+  display: flex;
+  justify-content: center;
+}
 .footer-box {
   display: flex;
   justify-content: space-around;
@@ -223,13 +229,70 @@ body {
 }
 
 /* __________PAGE 2__________*/
-/* BG_CAT_GIF */
 
+/* MODAL WINDOW */
+.modal {
+  background-color: rgba(0, 0, 0, .8);
+  z-index: 1;
+  position: absolute;
+  padding-top: 400px;
+  width: 100%;
+  color: #fff;
+  display: none;
+}
+.modal-window {
+  width: 1200px;
+  background-color: #211107;
+  margin: auto;
+  display: flex;
+}
+.modal-window-text {
+  width: 1200px;
+  margin: auto;
+  background-color: #211107;
+}
+.modal-img img {
+  width: 400px;
+  margin: 15px 0;
+}
+.modal-images {
+  text-align: center;
+}
+.modal-images img {
+  width: 150px;
+  height: 100px;
+  border: 2px solid #fff;
+}
+.modal-images h1 {
+  border-bottom: 1px solid #fff;
+}
+.modal-text{
+  padding: 15px 40px;
+  height: 125vh;
+  overflow-y: scroll;
+}
+.cross span:after {
+  content: "";
+  position: absolute;
+  top: 350px;
+  right: 10%;
+  height: 2px;
+  width: 30px;
+  background-color: #fff;
+}
+.cross1:after {
+  transform: rotate(45deg);
+}
+.cross2:after {
+  transform: rotate(-45deg);
+}
+
+
+/* BG_CAT_GIF */
 .bg-cat-wraper{
   display: flex;
   justify-content: center;
   margin-top: 100px;
-
 }
 .bg-cat {
   width: 150px;
@@ -255,6 +318,7 @@ body {
   color: #fff;
   text-align: center;
   background-color: rgba(0, 0, 0,);
+  cursor: pointer;
 }
 .blog-description:hover {
   color: rgb(200,200,200);
@@ -284,6 +348,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 100;
 }
 .blog-cat-gif img {
   margin-top: -50px;
