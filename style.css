@@ -233,7 +233,7 @@ body {
 /* MODAL WINDOW */
 .modal {
   background-color: rgba(0, 0, 0, .8);
-  z-index: 1;
+  z-index: 800;
   position: absolute;
   padding-top: 400px;
   width: 100%;
@@ -271,22 +271,20 @@ body {
   height: 125vh;
   overflow-y: scroll;
 }
-.cross span:after {
-  content: "";
+.cross {
+  position: relative;
+}
+.cross img {
   position: absolute;
-  top: 350px;
+  bottom: 0;
   right: 10%;
-  height: 2px;
-  width: 30px;
-  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  display: block;
 }
-.cross1:after {
-  transform: rotate(45deg);
+.cross img:hover {
+  transform: scale(1.1);
 }
-.cross2:after {
-  transform: rotate(-45deg);
-}
-
 
 /* BG_CAT_GIF */
 .bg-cat-wraper{
@@ -365,5 +363,15 @@ body {
 }
 
 
+
+
+
+/* JS CLASSES */
+.dis-block {
+  display: block;
+}
+.dis-none {
+  display: none;
+}
 
 
