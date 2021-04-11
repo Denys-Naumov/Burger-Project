@@ -392,6 +392,16 @@ body {
   height: 250px;
   clip-path: polygon(0 0, 0% 100%, 100% 100%);
 }
+.dark-img {
+  position: absolute;
+  top: 105px;
+  left: 60px;
+  z-index: -1;
+  background-color: rgba(0,0,0,.5);
+  width: 385px;
+  height: 175px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
 .shop-burger-img {
   margin-top: 15px;
   width: 300px;
@@ -433,6 +443,10 @@ body {
   filter: drop-shadow(0 0 15px rgb(255, 255, 0));
   transform: scale(1.1);
   color: #ffff00;
+  outline: none;
+}
+.btn-paw:active{
+  color: #ff0000;
 }
 .shop-burger-item .btn-paw img {
   width: 15px;
@@ -443,6 +457,14 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 60%;
+}
+.shop-cat-gif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  margin-bottom: 50px;
 }
 
 
