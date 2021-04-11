@@ -40,7 +40,6 @@ body {
   font-family: "Permanent Marker", cursive;
   color: #fff;
   z-index: 500;
-  
 }
 .btn:hover {
   transform: scale(1.1);
@@ -104,13 +103,13 @@ body {
   display: flex;
   justify-content: center;
 }
-.basket img{
+.basket img {
   width: 35px;
   height: 35px;
   cursor: pointer;
 }
 .basket img:hover {
-  filter: drop-shadow(0 0 5px rgb(255,255,0))
+  filter: drop-shadow(0 0 5px rgb(255, 255, 0));
 }
 .basket-counter {
   position: absolute;
@@ -232,7 +231,7 @@ body {
 
 /* MODAL WINDOW */
 .modal {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 800;
   position: absolute;
   padding-top: 400px;
@@ -266,7 +265,7 @@ body {
 .modal-images h1 {
   border-bottom: 1px solid #fff;
 }
-.modal-text{
+.modal-text {
   padding: 15px 40px;
   height: 125vh;
   overflow-y: scroll;
@@ -287,7 +286,7 @@ body {
 }
 
 /* BG_CAT_GIF */
-.bg-cat-wraper{
+.bg-cat-wraper {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -299,7 +298,7 @@ body {
 .bg-cat-text {
   text-transform: uppercase;
   font-size: 25px;
-  color:#fff; 
+  color: #fff;
   text-align: center;
   letter-spacing: 2px;
   margin-bottom: 75px;
@@ -315,12 +314,12 @@ body {
 .blog-description {
   color: #fff;
   text-align: center;
-  background-color: rgba(0, 0, 0,);
+  background-color: rgba(0, 0, 0);
   cursor: pointer;
 }
 .blog-description:hover {
-  color: rgb(200,200,200);
-  background-color: rgba(0, 0, 0, .75);
+  color: rgb(200, 200, 200);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 .blog-description h1 {
   font-size: 23px;
@@ -338,7 +337,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.blog-bg-cat img{
+.blog-bg-cat img {
   width: 210px;
 }
 .blog-cat-gif {
@@ -362,10 +361,6 @@ body {
   overflow: hidden;
 }
 
-
-
-
-
 /* JS CLASSES */
 .dis-block {
   display: block;
@@ -373,5 +368,3 @@ body {
 .dis-none {
   display: none;
 }
-
-
