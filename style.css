@@ -23,9 +23,20 @@ body {
   display: flex;
 }
 
+.bg-dark {
+  background-color: rgba(0,0,0,.5);
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
 [class*="col-"] {
   padding: 0 15px;
 }
+
+
 
 /* BUTTON */
 .btn {
@@ -361,7 +372,82 @@ body {
   overflow: hidden;
 }
 
-/* JS CLASSES */
+/* __________PAGE 3__________*/
+
+/* Main */
+.shop-row {
+  display: flex;
+  justify-content: space-around;
+}
+.shop-top-row {
+  margin-top: 100px;
+}
+.white-img {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  z-index: -1;
+  background-color: rgba(255,255,255,.25);
+  width: 550px;
+  height: 250px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.shop-burger-img {
+  margin-top: 15px;
+  width: 300px;
+  height: 250px;
+}
+.shop-burger-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  padding: 15px;
+}
+.shop-burger-item h1 {
+  border-bottom: 2px solid #fff;
+  font-size: 23px;
+  letter-spacing: 3px;
+}
+.shop-burger-item h2 {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.shop-burger-item p {
+  font-size: 10px;
+  width: 70%;
+}
+.btn-paw {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  padding: 5px;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+}
+.btn-paw:hover {
+  filter: drop-shadow(0 0 15px rgb(255, 255, 0));
+  transform: scale(1.1);
+  color: #ffff00;
+}
+.shop-burger-item .btn-paw img {
+  width: 15px;
+  height: 15px;
+}
+.shop-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+
+
+/* ______________JS CLASSES______________ */
 .dis-block {
   display: block;
 }

@@ -209,6 +209,9 @@
   .modal-text {
     height: 100%;
   }
+  .slider {
+    margin-bottom: 100px;
+  }
 
   /* COLLS */
   .col-sm-0 {
@@ -368,6 +371,9 @@
   .burger-item.cat-gif {
     position: unset;
     margin-top: -75px;
+  }
+  .slider {
+    margin-bottom: 250px;
   }
   /* Footer */
   .footer {
@@ -567,6 +573,9 @@
   }
   .blog-cat-gif img {
     width: 300px;
+  }
+  .slider {
+    margin-bottom: 250px;
   }
   /* Footer */
   .footer {
