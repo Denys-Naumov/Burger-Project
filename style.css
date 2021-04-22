@@ -69,7 +69,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 9999;
   margin-bottom: -85px;
 }
 .logo-a {
@@ -247,6 +247,7 @@ body {
   position: absolute;
   padding-top: 400px;
   width: 100%;
+  height: 100%;
   color: #fff;
   display: none;
 }
@@ -466,6 +467,24 @@ body {
   z-index: 100;
   margin-bottom: 50px;
 }
+/* SHOP MODAL */
+  .shop-modal {
+    position: fixed;
+    background-color: rgba(255,255,255,.3);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+  }
+  .shop-modal-container {
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 80vh;
+    background: linear-gradient(#775b45, #340a0a);;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
 
 
 
