@@ -6,23 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&family=Lemon&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="mobile.css">
     <title>Best Burgers HERE!!!</title>
 </head>
 <body>
-    <section class="shop-modal">
+    <section class="shop-modal dis-none">
+        <div class="shop-cross">
+            <img src="./burger/cancel.png" alt="">
+        </div>
         <div class="shop-modal-container">
             <div class="shop-modal-row">
                 <img class="shop-burger-img" src="./burger/shop/burger_1.png" alt="">
+                <div class="boxx">
+                    <p class="shop-burger-price"><span class="add-to-total">15</span> $</p>
+                    <button class="btn supltop-btn add-btn-total">add</button>
+                </div>
                 <div class="modal-box">
                     <button class="btn btn-shop decr">-</button>
-                    <input class="input-shop" type="text" value="1">
+                    <input class="input-shop input-supl" type="text" value="1">
                     <button class="btn btn-shop incr">+</button>
                 </div>
-                <button class="btn-paw shop-btn-paw">Buy <img src="./burger/pawprint.png" alt=""></button>
+                <button class="btn-paw-buy shop-btn-paw">Buy <img src="./burger/pawprint.png" alt=""></button>
             </div>
             <div class="shop-modal-row1">
                 <h2>Suplements</h2>
@@ -30,102 +36,126 @@
             <div class="shop-modal-row">
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-cheese1">-</button>
+                        <p><span class="add-to-total">0.5</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-cheese1">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sir.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-cheese2">-</button>
+                        <p><span class="add-to-total">0.5</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-cheese2">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sir_cheder.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-cheese3">-</button>
+                        <p><span class="add-to-total">0.75</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-cheese3">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sir_mocarella.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-cheese4">-</button>
+                        <p><span class="add-to-total">1</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-cheese4">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sir_plesen.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
             </div>
             <div class="shop-modal-row">
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-meet1">-</button>
+                        <p><span class="add-to-total">1</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-meet1">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/bekon.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-meet2">-</button>
+                        <p><span class="add-to-total">1</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-meet2">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/kotleta.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-meet3">-</button>
+                        <p><span class="add-to-total">1</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-meet3">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/salyami.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-meet4">-</button>
+                        <p><span class="add-to-total">1.25</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-meet4">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/proshuto.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
             </div>
             <div class="shop-modal-row">
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-other1">-</button>
+                        <p><span class="add-to-total">1.5</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-other1">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/egg.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-other2">-</button>
+                        <p><span class="add-to-total">1.25</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-other2">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/gribi.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-other3">-</button>
+                        <p><span class="add-to-total">1</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-other3">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/toma.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-other4">-</button>
+                        <p><span class="add-to-total">1</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-other4">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/salat.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
             </div>
@@ -135,34 +165,42 @@
             <div class="shop-modal-row">
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-sause1">-</button>
+                        <p><span class="add-to-total">0.5</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-sause1">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sause_1.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-sause2">-</button>
+                        <p><span class="add-to-total">0.5</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-sause2">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sause_2.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-sause3">-</button>
+                        <p><span class="add-to-total">0.5</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-sause3">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sause_3.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
                 <div class="col-ld-3 col-md-3 col-sm-6 col-xs-12 modal-supl">
                     <div class="shop-modal-box">
-                        <button class="btn btn-supl decr-sause4">-</button>
+                        <p><span class="add-to-total">0.5</span> $</p>
+                        <button class="btn btn-supl decr">-</button>
                         <input class="input-supl" type="text" value="0">
-                        <button class="btn btn-supl incr-sause4">+</button>
+                        <button class="btn btn-supl incr">+</button>
                         <img src="./burger/shop/sause_4.png" alt="">
+                        <button class="btn supl-btn add-btn-total">add</button>
                     </div>
                 </div>
             </div>
@@ -172,6 +210,7 @@
             </div>
         </div>
     </section>
+
     <header class="header">
         <div class="col-ld-0 col-md-0 col-sm-0 col-xs-12 mobile-burger">
             <a class="logo-a" href="#">
@@ -484,5 +523,6 @@
     </footer>
 
     <script src="app.js"></script>
+    <script src="shopModal.js"></script>
 </body>
 </html>
