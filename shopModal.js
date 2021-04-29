@@ -9,6 +9,10 @@ let addTotalBtn = document.querySelectorAll(".add-btn-total");
 let total = document.querySelector(".input-total")
 let min = 0;
 let max = 5;
+let priceArr = [];
+let inputValueArr = [];
+
+console.log(input)
 
 // Open, close modal
 for (let i = 0; i < modOpen.length; i++) {
@@ -54,14 +58,14 @@ for (let i = 0; i < decr.length; i++) {
   });
 }
 // Counting
-for (let i = 0; i < decr.length; i++) {
-  addTotalBtn[i].addEventListener("click", function(){
-    for (let i = 0; i < decr.length; i++) {
-      let x = (+price[i].innerText * +input[i].value) + (+total.value)
-      total.value = x
-      console.log(x)
-    }
-  })
+
+for (let i = 0; i < price.length; i++) {
+  priceArr.push(price[i].innerText)
 }
 
-
+for (let i = 0; i < priceArr.length ; i++) {
+  addTotalBtn[i].addEventListener("click", function() {
+    let sum = (priceArr[i] * input[i].value) + (+total.value);
+    total.value =+ sum
+  })
+ }
