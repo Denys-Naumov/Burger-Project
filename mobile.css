@@ -109,6 +109,11 @@
     margin-top: -100px;
   }
 
+  /* Page 5 */
+  .map {
+    width: 1000px;
+  }
+
   /* COLLS */
   .col-md-0 {
     display: none;
@@ -254,6 +259,10 @@
   .dark-img {
     width: 485px;
   }
+  /* Page 5 */
+    .map {
+      width: 700px;
+    }
   /* COLLS */
   .col-sm-0 {
     display: none;
@@ -463,6 +472,10 @@
   .shop-cat-gif {
     margin-top: -100px;
   }
+  /* Page 5 */
+    .map {
+      width: 480px;
+    }
   /* COLLS */
   .col-xs-0 {
     display: none;

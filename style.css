@@ -243,7 +243,6 @@ body {
 
 /* MODAL WINDOW */
 .modal {
-  background-color: rgba(0, 0, 0, 0.8);
   z-index: 800;
   position: absolute;
   padding-top: 400px;
@@ -558,7 +557,7 @@ body {
   width: 60%;
   height: 100px;
 }
-.shop-modal-box p{
+.shop-modal-box p {
   width: 100%;
   font-size: 25px;
   color: #fff;
@@ -639,10 +638,66 @@ body {
   transform: scale(1.1);
 }
 
+/* PAGE 4 */
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+}
+.contact-box-top {
+  margin-top: 200px;
+}
+.contact-box h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-box p {
+  font-size: 18px;
+  margin-top: 50px;
+}
+.contact-box span {
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: 4px;
+  padding: 15px 0;
+}
+.contact-box span:hover {
+  color: yellow;
+}
+.contact-social {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px 0 0 0;
+}
+.contact-social img {
+  margin: 10px 0;
+}
+.contact-social img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 5px #61f2ed);
+}
+.map {
+  margin-bottom: 100px;
+}
+
 /* ______________JS CLASSES______________ */
 .dis-block {
   display: block;
 }
 .dis-none {
   display: none;
+}
+.bgc-dark-js {
+  background: rgba(0,0,0,.9);
+}
+.bgc-stone-js {
+  background: url(img/kamenka.gif);
 }
