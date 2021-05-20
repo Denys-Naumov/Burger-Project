@@ -108,6 +108,9 @@
   .shop-cat-gif {
     margin-top: -100px;
   }
+  .shop-modal-container {
+    width: 1000px;
+  }
 
   /* Page 5 */
   .map {
@@ -258,6 +261,16 @@
   }
   .dark-img {
     width: 485px;
+  }
+  .shop-modal-container {
+    width: 700px;
+  }
+  .shop-modal-row {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .shop-modal-box img {
+    margin: 0 20px;
   }
   /* Page 5 */
     .map {
@@ -471,6 +484,16 @@
   }
   .shop-cat-gif {
     margin-top: -100px;
+  }
+  .shop-modal-container {
+    width: 450px;
+  }
+  .shop-modal-row {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .shop-modal-box img {
+    margin: 0 40px;
   }
   /* Page 5 */
     .map {
